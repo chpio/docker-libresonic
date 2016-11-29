@@ -8,7 +8,7 @@ RUN { set -ex; \
 	rm -rf /var/lib/apt/lists/*; \
 }
 
-ENV SUBSONIC_VERSION 6.0.1
+ENV SUBSONIC_VERSION 6.1
 
 RUN { set -ex; \
 	mkdir -p $JETTY_BASE/webapps/ROOT; \
